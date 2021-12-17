@@ -6,7 +6,8 @@ const app = Vue.createApp({
             description: 'This is a description',
             url_string: 'https://www.google.com',
             inStock: true,
-            inventory: 100
+            inventory: 100,
+            onSale: true
         }
     }
 })
