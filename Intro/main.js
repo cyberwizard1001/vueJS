@@ -7,7 +7,8 @@ const app = Vue.createApp({
             url_string: 'https://www.google.com',
             inStock: true,
             inventory: 100,
-            onSale: true
+            onSale: true,
+            details: ['50% cotton','30% wool','20% polyester']
         }
     }
 })
